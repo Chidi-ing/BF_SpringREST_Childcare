@@ -1,4 +1,4 @@
-package com.example.springrestchildcare.model.entities;
+package com.springrestchildcare.model.entities;
 
 import lombok.*;
 
@@ -12,7 +12,7 @@ import javax.persistence.*;
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 public abstract class Person {
 
-    @Id
+    @Id //Primary key
     @GeneratedValue(strategy = GenerationType.TABLE) // incréments by table
     private Long id;
 

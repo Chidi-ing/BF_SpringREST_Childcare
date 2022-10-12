@@ -1,6 +1,7 @@
-package com.example.springrestchildcare.model.entities;
+package com.springrestchildcare.model.entities;
 
 
+import com.springrestchildcare.model.entities.Person;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -13,6 +14,7 @@ import java.util.List;
 @Getter @Setter
 @NoArgsConstructor
 public class Child extends Person {
+
 
     private LocalDate DateOfBirth;
     private boolean clean;

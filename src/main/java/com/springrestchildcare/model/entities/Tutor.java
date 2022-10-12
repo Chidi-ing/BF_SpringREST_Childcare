@@ -1,4 +1,4 @@
-package com.example.springrestchildcare.model.entities;
+package com.springrestchildcare.model.entities;
 
 
 import lombok.Getter;
@@ -17,8 +17,8 @@ public class Tutor extends Person {
 
     @Column(nullable = false)
     private String numTel;
-
+/*
     @ManyToMany(mappedBy = "tutors")
-    private Set<Child> childs;
-
+    //private Set<Child> childs;
+*/
 }
